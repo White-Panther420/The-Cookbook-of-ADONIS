@@ -1,21 +1,27 @@
 body
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 h1 /*The Cookbook of ADONIS!*/
 {
     font-size: 40px;
-    
+    margin-bottom: 0;
 }
 
+.Adonis-word
+{
+    margin-bottom: 50px;
+    font-weight: 1000;
+    color: #B500FF;
+}
 .content-container
 {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    background: blue;
+    width: 600px;
+    background: #E9ECEE;
     text-align: center;
 }
 
@@ -35,7 +41,6 @@ h1 /*The Cookbook of ADONIS!*/
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 16px;
-    border: solid 4px yellow;
 }
 
 .category-list
@@ -56,16 +61,16 @@ li
 {
     font-weight: 700;
     margin-top: 8px;
+
 }
 
 .left-ribbon,
 .right-ribbon
 {
     display: flex;
-    max-width: 200px;
+    max-width: 300px;
     min-height: 100vh;
     flex-grow: 1;
-    flex-shrink: 0;
-    background: green;
-    color: green;
+    background: #500;
+    color: #500;
 }
