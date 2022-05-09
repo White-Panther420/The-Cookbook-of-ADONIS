@@ -3,23 +3,49 @@ body
     display: flex;
     justify-content: center;
 }
+
+h1
+{
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 32px;
+}
 .content-container
 {
     display: flex;
     flex-direction: column;
-    background: rgb(6, 174, 230);
+    background: #E9ECEE;
 }
-.eggs
-{
-    align-self: center;
-    max-width: 50%;
-    max-height: 50%;
-}
-.food
+
+.scrambled_eggs /*container for scrambled eggs food item*/
 {
     display: flex;
+    align-items: center;
+    padding: 8px 32px;
+    background: #E9ECEE;
+}
+
+.egg_pic /*Picture of scrambled eggs*/
+{
+    max-width: 100%; /*Fills the entire image container*/
+    max-height: 100%;
+}
+
+.image
+{
+    width: 200px;
+    height: 150px;
+}
+
+.egg_desc
+{
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background: rgb(37, 238, 37);
+    text-align: left;
+    flex: 1;
+    width: 400px;
+    margin-left: 16px;
 }
 
 .left-ribbon,
