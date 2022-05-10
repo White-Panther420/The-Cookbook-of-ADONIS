@@ -63,6 +63,11 @@ li
     margin-top: 8px;
 }
 
+a
+{
+    text-decoration: none;
+    color: rgb(0, 10, 145)
+}
 .left-ribbon,
 .right-ribbon
 {
