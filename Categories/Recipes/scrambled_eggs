@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Scrambled Eggs Recipe/title>
+</head>
+<body>
+    <div class = "left-ribbon">.</div>
+    <div class = "content-container">
+        <h1>Scrammbled Eggs</h1>
+        <img class = "Adonis-pic" src = "./Images/Adonis_chef.jpg" alt = "Adonis in chefs hat">
+        <h3>Food Description</h3>
+        <p>
+    </div>
+    <div class = "right-ribbon">.</div>
+</body>
+</html>
