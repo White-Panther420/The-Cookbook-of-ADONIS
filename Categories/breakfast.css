@@ -21,6 +21,7 @@ h1
 {
     display: flex;
     flex-direction: column;
+    width: 700px;
     background: #E9ECEE;
 }
 

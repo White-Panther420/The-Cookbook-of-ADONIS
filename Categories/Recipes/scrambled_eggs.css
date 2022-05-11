@@ -1,0 +1,92 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background: #E9ECEE;
+    align-items: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.eggs-pic /*Picture of scrambled eggs*/
+{
+    max-width: 50%; /*Fills the container*/
+    max-height: 50%;
+    border-radius: 32px;
+    margin-top: 24px;
+}
+
+.desc-title,
+.desc-text
+{
+    align-self: flex-start;
+    margin-left: 16px;
+}
+
+.desc-title
+{
+    margin-top: 32px;
+}
+
+.desc-text
+{
+    margin-top: 0;
+}
+.recipe-container
+{
+    display: flex;
+}
+
+.ingredients-container
+{
+    background: lightblue;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 0px 12px;
+    border-top: solid 2px #B500FF;
+    border-bottom: solid 2px #B500FF;
+}
+
+.food-instructions-container
+{
+    background: lightpink;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 0px 12px;
+    border-top: solid 2px #B500FF;
+    border-left: solid 2px #B500FF;
+    border-bottom: solid 2px #B500FF;
+}
+
+li
+{
+    margin-bottom: 6px;
+}
+
+.nutrition-container
+{
+    background: lightgreen;
+    margin-top: 16px;
+}
+
+.left-ribbon,
+.right-ribbon
+{
+    display: flex;
+    max-width: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #500;
+    color: #500;
+}
+
