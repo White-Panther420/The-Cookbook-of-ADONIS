@@ -67,6 +67,11 @@ h1
     border-left: solid 2px #B500FF;
 }
 
+ul,ol
+{
+    margin-top: -12px;
+}
+
 li
 {
     margin-bottom: 6px;
@@ -77,8 +82,14 @@ li
     background: #E9ECEE;
     text-align: center;
     margin-top: 20px;
-    border: solid 2px #B500FF;
+    border-top: solid 2px #B500FF;
+    border-bottom: solid 2px #B500FF;
     padding: 0px;
+}
+
+.nutrition-text
+{
+    margin-top: -10px;
 }
 
 .left-ribbon,
