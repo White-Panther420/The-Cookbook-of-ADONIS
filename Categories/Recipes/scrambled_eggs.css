@@ -11,6 +11,7 @@ body
     width: 700px;
     background: #E9ECEE;
     align-items: center;
+    padding: 16px;
 }
 
 h1
@@ -30,7 +31,7 @@ h1
 .desc-text
 {
     align-self: flex-start;
-    margin-left: 16px;
+    
 }
 
 .desc-title
@@ -40,32 +41,30 @@ h1
 
 .desc-text
 {
-    margin-top: 0;
+    margin-top: -12px;
+    margin-bottom: 32px;
 }
 .recipe-container
 {
     display: flex;
+    margin-bottom: 0;
 }
 
 .ingredients-container
 {
-    background: lightblue;
+    background: #E9ECEE;
     flex-wrap: wrap;
     width: 40%;
     padding: 0px 12px;
-    border-top: solid 2px #B500FF;
-    border-bottom: solid 2px #B500FF;
 }
 
 .food-instructions-container
 {
-    background: lightpink;
+    background: #E9ECEE;
     flex-wrap: wrap;
     width: 60%;
     padding: 0px 12px;
-    border-top: solid 2px #B500FF;
     border-left: solid 2px #B500FF;
-    border-bottom: solid 2px #B500FF;
 }
 
 li
@@ -75,8 +74,11 @@ li
 
 .nutrition-container
 {
-    background: lightgreen;
-    margin-top: 16px;
+    background: #E9ECEE;
+    text-align: center;
+    margin-top: 20px;
+    border: solid 2px #B500FF;
+    padding: 0px;
 }
 
 .left-ribbon,
