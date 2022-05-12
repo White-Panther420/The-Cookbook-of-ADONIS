@@ -21,8 +21,8 @@ h1
 
 .chicken-pic /*Picture of scrambled eggs*/
 {
-    max-width: 50%; /*Fills the container*/
-    max-height: 50%;
+    max-width: 35%; /*Fills the container*/
+    max-height: 35%;
     border-radius: 32px;
     margin-top: 24px;
 }
