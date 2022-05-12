@@ -1,0 +1,77 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+h1
+{
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.food_title
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background: #E9ECEE;
+}
+
+.food-container /*container for food which includes food picture, title, macro info, and link to make the food*/
+{
+    display: flex;
+    align-items: center;
+    padding: 8px 32px;
+    background: #E9ECEE;
+}
+
+.food-pic /*Picture of scrambled eggs*/
+{
+    width: 100%; /*Fills the entire image container*/
+    height: 100%;
+    border-radius: 32px;
+    border: solid #B500FF 2px;
+}
+
+.image-container
+{
+    width: 200px;
+    height: 150px;
+    background: #E9ECEE;
+}
+
+.food_desc
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    flex: 1;
+    width: 400px;
+    margin-left: 32px;
+    padding-bottom: 16px;
+}
+
+p
+{
+    margin-bottom: 0;
+}
+
+.left-ribbon,
+.right-ribbon
+{
+    display: flex;
+    max-width: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #500;
+    color: #500;
+}
