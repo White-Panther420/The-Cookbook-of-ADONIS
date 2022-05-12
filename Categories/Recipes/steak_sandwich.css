@@ -1,0 +1,106 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background: #E9ECEE;
+    align-items: center;
+    padding: 16px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.steak-pic /*Picture of steak sandwich*/
+{
+    width: 200px;
+    height: auto;
+    border-radius: 32px;
+    margin-top: 24px;
+}
+
+.desc-title,
+.desc-text
+{
+    align-self: flex-start;
+    
+}
+
+.desc-title
+{
+    margin-top: 32px;
+}
+
+.desc-text
+{
+    margin-top: -12px;
+    margin-bottom: 32px;
+}
+.recipe-container
+{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.ingredients-container
+{
+    background: #E9ECEE;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 0px 12px;
+}
+
+.food-instructions-container
+{
+    background: #E9ECEE;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 0px 12px;
+    border-left: solid 2px #B500FF;
+}
+
+ul,ol
+{
+    margin-top: -12px;
+}
+
+li
+{
+    margin-bottom: 6px;
+}
+
+.nutrition-container
+{
+    background: #E9ECEE;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    border-top: solid 2px #B500FF;
+    border-bottom: solid 2px #B500FF;
+    padding: 0px;
+}
+
+.nutrition-text
+{
+    margin-top: -10px;
+}
+
+.left-ribbon,
+.right-ribbon
+{
+    display: flex;
+    max-width: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #500;
+    color: #500;
+}
+
